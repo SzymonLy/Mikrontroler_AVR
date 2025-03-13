@@ -1,0 +1,22 @@
+copy C:/Users/Szymo/OneDrive/Pulpit/inzynierka/attiny.X/dist/default/production/attiny.X.production.hex dpu_hex.hex
+copy C:/Users/Szymo/OneDrive/Pulpit/inzynierka/atmega8.X/dist/default/production/atmega8.X.production.hex cpu_hex.hex
+Python hex_gen.py
+
+
+cd D:/python
+copy D:/atmega8_xc8.X/dist/default/production/atmega8_xc8.X.production.hex cpu_hex.hex
+copy D:/atiny_xc8.X/dist/default/production/atiny_xc8.X.production.hex dpu_hex.hex
+Python hex_gen.py
+
+notepad D:/atiny_xc8.X/dist/default/production/atiny_xc8.X.production.lss
+notepad D:/atmega8_xc8.X/dist/default/production/atmega8_xc8.X.production.lss
+
+
+
+copy C:/Users/Szymo/OneDrive/Pulpit/Kopia_D/atiny_xc8.X/dist/default/production/atiny_xc8.X.production.hex dpu_hex.hex
+copy C:/Users/Szymo/OneDrive/Pulpit/Kopia_D/atmega8_xc8.X/dist/default/production/atmega8_xc8.X.production.hex cpu_hex.hex
+Python hex_gen.py 1
+Python bin_gen.py 5
+
+notepad C:/Users/Szymo/OneDrive/Pulpit/Kopia_D/atiny_xc8.X/dist/default/production/atiny_xc8.X.production.lss
+notepad C:/Users/Szymo/OneDrive/Pulpit/Kopia_D/atmega8_xc8.X/dist/default/production/atmega8_xc8.X.production.lss

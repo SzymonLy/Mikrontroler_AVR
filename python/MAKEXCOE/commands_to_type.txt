@@ -1,0 +1,9 @@
+copy C:/Users/Szymo/OneDrive/Pulpit/inzynierka/attiny.X/dist/default/production/attiny.X.production.hex my_hex.hex
+.\MAKEXCOE.exe my_hex.hex
+
+copy C:/Users/Szymo/OneDrive/Pulpit/inzynierka/atmega8.X/dist/default/production/atmega8.X.production.hex my_hex.hex
+.\MAKEXCOE.exe my_hex.hex
+
+cd D:/MAKEXCOE
+copy D:/atmega8_xc8.X/dist/default/production/atmega8_xc8.X.production.hex my_hex.hex
+.\MAKEXCOE.exe my_hex.hex
